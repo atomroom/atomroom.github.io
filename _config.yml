@@ -1,13 +1,14 @@
 # Site settings
-title: 三叶草国际语
-SEOTitle: 三叶草国际语 - 让沟通更容易
+title: 原子空间
+SEOTitle: 原子空间 - 跨越时空的交流
 header-img: img/post-bg-desk.jpg
-email: klovien@gmail.com
-description: "中西融合, 即学即会, 从此不再辛苦背单词"
-keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
+email: atomroom@gmail.com
+description: "科学家们懂得他们的理论一开始就是近似，所以他们从未指望从其理论导出的结论与真实世界无丝毫误差。————尼古拉·特斯拉
+原文链接：https://www.toutiaoqiwen.com/world/55304.html"
+keyword: "原子空间, 原子, 时间, 空间, 时空"
 url: "https://klovien.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
+github_repo: "https://github.com/atomroom/atomroom.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +19,12 @@ sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-# github_username:    qiubaiying
-# facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-# twitter_username:   qiubaiying
+# weibo_username:     atomroom
+# zhihu_username:     atomroom
+# github_username:    atomroom
+# facebook_username:  atomroom
+# jianshu_username:   atomroom
+# twitter_username:   atomroom
 
 
 
@@ -57,16 +58,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: atomroom
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: d18b343dd9c7ca49518a                            #生成的clientID
   clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
-  repo: klovien.github.io    #仓库名称
-  owner: klovien    #github用户名
-  admin: klovien
+  repo: atomroom.github.io    #仓库名称
+  owner: atomroom    #github用户名
+  admin: atomroom
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
