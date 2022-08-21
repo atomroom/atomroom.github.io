@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: atomroom@outlook.com
 description: "科学家们从未指望从其理论导出的结论与真实世界无丝毫误差。"
 keyword: "原子空间, 原子, 时间, 空间, 时空"
-url: "https://klovien.github.io"          # your host, for absolute URL
+url: "https://atomroom.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/atomroom/atomroom.github.io.git" # you code repository
 
