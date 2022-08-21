@@ -2,8 +2,8 @@
 title: 原子空间
 SEOTitle: 原子空间 - 跨越时空的交流
 header-img: img/post-bg-desk.jpg
-email: atomroom@gmail.com
-description: "科学家们懂得他们的理论一开始就是近似，所以他们从未指望从其理论导出的结论与真实世界无丝毫误差。"
+email: atomroom@outlook.com
+description: "科学家们从未指望从其理论导出的结论与真实世界无丝毫误差。"
 keyword: "原子空间, 原子, 时间, 空间, 时空"
 url: "https://klovien.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: d18b343dd9c7ca49518a                            #生成的clientID
-  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
+  clientID: 8b38eb6c4104661e803e                            #生成的clientID
+  clientSecret: 5c1743324ed5ca9856f4387c5447a2616f0b4511    #生成的clientSecret
   repo: atomroom.github.io    #仓库名称
   owner: atomroom    #github用户名
   admin: atomroom
