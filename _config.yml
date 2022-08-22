@@ -20,7 +20,7 @@ sidebar-avatar: /img/logo.png      # use absolute URL, seeing it's used in both 
 RSS: false
 # weibo_username:     atomroom
 # zhihu_username:     atomroom
-# github_username:    atomroom
+github_username:    atomroom
 # facebook_username:  atomroom
 # jianshu_username:   atomroom
 # twitter_username:   atomroom
