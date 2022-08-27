@@ -104,5 +104,8 @@ friends: [
     },{
         title: "默库的仓库",
         href: "https://github.com/imoki"
+    },{
+        title: "防诈骗知识库",
+        href: "https://aioriot.com/"
     }
 ]
