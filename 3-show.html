@@ -1,0 +1,95 @@
+---
+layout: page
+title: "作品展"
+description: "转载自其他制作者的优质作品"
+header-img: "img/post-bg-desk.jpg"
+---
+<small> 
+    <font color="a0a9a9">
+    <b>说明：</b>
+    <li>转载自其他制作者的优质作品，如展示有所不妥将进行删除。</li>
+    </font>
+<small>
+<hr>
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>IEFE</strong></br>作品名：四水合氯化锰晶体</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-IEFE-四水合氯化锰晶体.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>反质子°</strong></br>作品名：天气瓶</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-反质子°-天气瓶.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>叶酸酸</strong></br>作品名：乙酸铜晶体</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-叶酸酸-乙酸铜晶体.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>小猴的实验室</strong></br>作品名：三草酸合铝酸镁钠</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-小猴的实验室-三草酸合铝酸镁钠.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>小猴的实验室</strong></br>作品名：铬染明矾晶体</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-小猴的实验室-铬染明矾晶体.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>氧烷君</strong></br>作品名：明矾</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-氧烷君-明矾.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>滪旸</strong></br>作品名：三氯化六尿素合铁</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-滪旸-三氯化六尿素合铁.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>滪旸</strong></br>作品名：新秋露洗</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-滪旸-新秋露洗.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>滪旸</strong></br>作品名：鉴湖叠翠</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-滪旸-鉴湖叠翠.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>贴吧用户_0QGPZP8</strong></br>作品名：CH3NH3PbBr3</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-贴吧用户_0QGPZP8-CH3NH3PbBr3.jpg)
+
+<blockquote><p>转载：百度贴吧</br>作者：<strong>贴吧用户_Q594Na2</strong></br>作品名：氯化钠晶体</p></blockquote>
+![]({{site.baseurl}}/postimg/百度贴吧-贴吧用户_Q594Na2-氯化钠晶体.jpg)
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
