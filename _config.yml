@@ -100,7 +100,7 @@ service-worker: true
 friends: [
     {
         title: "默库",
-        href: "https://everygg.com"
+        href: "https://imoki.github.io"
     },{
         title: "默库的仓库",
         href: "https://github.com/imoki"
